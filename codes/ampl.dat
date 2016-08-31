@@ -1,0 +1,14 @@
+param M := 3; # Number of constraints
+param N := 2; # Number of variables
+param c :=
+0 1
+1 2;
+param A :
+  0 1 :=
+0 -3 2
+1 -1 2
+2 1 1;
+param b :=
+0 2
+1 4
+2 5;
